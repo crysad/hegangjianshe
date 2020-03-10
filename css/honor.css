@@ -1,0 +1,25 @@
+#nav .nav ul li:nth-child(5) .out{color:#FFFFFF;position:absolute;top:64px;left: 0px;}
+#nav .nav ul li:nth-child(5) .over{background-color: rgba(255,255,255,1);color:#000000;position:absolute; top:-2px;left: 0px;}
+/*#nav .nav ul li:nth-child(1):hover .out{position:absolute;top:64px;left: 0px;}
+#nav .nav ul li:nth-child(1):hover .over{position:absolute;top:-2px;left: 0px;}*/
+/*banner*/
+#banner{width: 100%;height: 300px; margin-top: -64px;}
+#banner .banner{width: 100%;height: 100%;background: url(../img/honor_banner.jpg)no-repeat top center;}
+/*banner end*/
+/*content*/
+#content{height: 1152px;width: 100%;}
+#content .content{height: 1160px;}
+#content .content .cont_tit{height: 140px;width: 100%;text-align: center;}
+#content .content .cont_tit span{font-size: 30px;line-height: 130px;color: #000000;}
+#content .content ul{width: 100%;height:930px;}
+#content .content .cont_list li{width: 370px;height: 295px;float: left;margin: 0 15px 21px;}
+#content .content .cont_list li a{width: 100%;height: 260px;display: block;}
+#content .content .cont_list li a >.pic_box{width: 100%;height: 260px;position: relative;top: 0;left: 0;}
+#content .content .cont_list li a >.pic_box img{width: 100%;height: auto;}
+#content .content .cont_list li a >.pic_box .shade{width:100%;height: 100%;position: absolute;top:0%;left:0%; background-color: rgba(122,122,122,.0);/*display: none;*/transition: all 0.5s ease;transform: scale(0);}
+#content .content .cont_list li a:hover >.pic_box .shade{/*display: block;*/ background-color: rgba(122,122,122,.3);transform: scale(1);} 
+#content .content .cont_list li span{width: 370px;height: 35px;display: block;}
+#content .content .cont_list li span a{width: 370px;height: 35px;display: block;font-size: 14px;color: #4c4c4c;font-weight:800;line-height: 35px;padding-left: 10px;}
+#content .content .cont_list li span a:hover{color: rgb(87,177,173);}
+/*content*/
+

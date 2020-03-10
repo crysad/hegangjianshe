@@ -1,0 +1,23 @@
+
+/*banner*/
+#banner{width: 100%;height: 300px;}
+#banner .banner{width: 100%;height: 100%;background:url(../img/news_banner03.jpg)no-repeat top center;margin-top: -64px;}
+/*banner end*/
+/*content*/
+#content{width: 100%;height: 875px;box-sizing: border-box;}
+#content .cont_type{height: 50px;width:100%;padding-top:5px;border-bottom: 1px solid #d6d6d6;}
+#content .cont_type .type{height: 40px;overflow: hidden;}
+#content .cont_type .type a{line-height: 40px;padding: 0 20px;font-size: 16px;color: #000000;height: 100%;display:block;float: left;}
+#content .cont_type .type a:hover{background-color:#cb001a;color: #FFFFFF;}
+
+#content .cont_list{height: 750px;background-color: pink;margin-top: 53px;padding: 0 12px;}
+#content .cont_list .list_t{width: 100%;}
+#content .cont_list .list_t .pic_box{width: 170px;height: 140px;float: left;}
+#content .cont_list .list_t .pic_box img{width: 100%;height: auto;}
+#content .cont_list .list_t time{float: right;}
+#content .cont_list .list_t >p{float: left;}
+#content .cont_list p{}
+#content .cont_list p a{}
+#content .cont_list p time{}
+
+/*content end*/

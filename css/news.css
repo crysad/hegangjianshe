@@ -1,0 +1,69 @@
+#nav .nav ul li:nth-child(4) .out{color:#FFFFFF;position:absolute;top:64px;left: 0px;}
+#nav .nav ul li:nth-child(4) .over{background-color: rgba(255,255,255,1);color:#000000;position:absolute; top:-2px;left: 0px;}
+/*#nav .nav ul li:nth-child(1):hover .out{position:absolute;top:64px;left: 0px;}
+#nav .nav ul li:nth-child(1):hover .over{position:absolute;top:-2px;left: 0px;}*/
+
+
+
+
+
+/*bannner*/
+#banner{width: 100%;height: 300px;}
+#banner .banner{width: 100%;height: 100%;background:url(../img/news_banner03.jpg) no-repeat top center;margin-top: -64px;}
+/*bannner end*/
+
+/*content*/
+#content{width: 100%;height:auto100%;box-sizing: border-box;}
+#content .cont_type{height: 50px;width:;padding-top:5px;border-bottom: 1px solid #d6d6d6;}
+#content .cont_type .type{height: 40px;overflow: hidden;}
+#content .cont_type .type a{line-height: 40px;padding: 0 20px;font-size: 16px;color: #000000;height: 100%;display:block;float: left;}
+#content .cont_type .type a:hover{background-color:#cb001a;color: #FFFFFF;}
+.type_act{background-color:#cb001a;color: #FFFFFF !important;}
+
+
+#content ul{width: 1200px;height: 844px;}
+#content ul li{width: 100%; height: 156px;overflow: hidden;margin-bottom: 16px;border-bottom: 1px solid #F0F0F0;}
+#content ul li .pic_box{width:170px; height: 140px;float: left;}
+#content ul li .pic_box img{width:170px;height: 140px;}
+
+#content ul li .cont_l{width: 982px;height: 100%;float: left;margin-left:16px;padding-top: 10px;overflow: hidden;}
+#content ul li .cont_l h4{font-size:14px;color: #323232;margin-bottom: 10px;width: 700px;float: left;}
+#content ul li .cont_l h4 a:hover{color: #BE0E0E;}
+#content ul li .cont_l >span{font-size: 12px;float: right;color: #a39696;}
+#content ul li .cont_l >span img{display: inline-block;position: relative;top: -2px;}
+#content ul li .cont_l p{font-size:14px;color: #666666;line-height: 26px;margin-top: 30px;}
+#content ul li .cont_l p span{font-size:14px;color: #969696;}
+#content ul li .cont_l span img{display: inline-block;}
+#content ul li .cont_l >a{color: #cb061a;width: 86px;height: 27px;display: block;border: 1px solid #f0f0f0;text-align: center;line-height: 27px;margin-top: 10px;float: right;}
+
+#content #page{height:50px;width: 100%;}
+#content #page .page{height: 100%;text-align: right;padding-top: 10px;}
+#content #page .page a{background-color: #f2f2f2; text-align: center;line-height: 30px;margin-right: 6px;}
+#content #page .page a:nth-child(1){width: 80px;height: 30px;display:inline-block;color: #666;}
+#content #page .page a:nth-child(2){width: 30px;height: 30px;display:inline-block;background-color:#cb001a;color: #FFFFFF;}
+#content #page .page a:nth-child(3){width: 30px;height: 30px;display:inline-block;color: #666;}
+#content #page .page a:nth-child(4){width: 80px;height: 30px;display:inline-block;background-color:#cb001a;color: #FFFFFF;margin-right:30px;}
+#content #page .page a:nth-child(1):hover{background-color: #65beba;color: #FFFFFF;}
+#content #page .page a:nth-child(3):hover{background-color: #65beba;color: #FFFFFF;}
+/*content end*/
+
+
+
+/*sub*/
+#content .main{width:1130px;margin: 0 auto;height: auto;padding-top: 48px;}
+#content .main h3{font-size: 30px;font-weight: 400;margin-bottom: 30px;text-align: center;color: rgba(30,30,30,1);}
+#content .main i{font-size: 12px; font-weight: 400;color:rgb(150,150,150);display: block;padding-right: 120px;line-height: 24px;border-bottom: 1px solid #f3f3f3;margin-bottom: 16px;}
+#content .main i >span{color: rgb(200,200,200);margin-left:50px;}
+#content .main >p:nth-of-type(1){color: #999;font-size: 14px;line-height: 24px;padding:10px;background-color: #fcfbfd;border: 1px solid #e4e4e4;}
+#content .main p{font-size:14px;line-height:24px;color: #656565;margin-top: 14px;}
+#content .main .gjc{height: 30px;width: 100%;margin-bottom: 65px;}
+#content .main .gjc >p{font-size: 14px;font-weight: 400;line-height: 30px;color: #969696;}
+#content .main .gjc p >span{display: inline-block;margin: 0 10px;padding: 0 16px;height: 30px;background-color: #fcfbfd;border: 1px solid #e4e4e4;box-sizing: border-box;}
+#content .main .page{height: 50px;width: 100%;}
+#content .main .page span{font-size: 14px;font-weight: 400;color: #969696;}
+#content .main .page a{font-size: 14px;font-weight: 400;color: #656565;margin: 0 20px;}
+#content .main .page a:hover{color: #65BEBA;}
+
+
+/*sub end*/
+

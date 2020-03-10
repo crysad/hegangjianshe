@@ -1,0 +1,139 @@
+
+#nav .nav ul li:nth-child(1) .out{color:#FFFFFF;position:absolute;top:64px;left: 0px;}
+#nav .nav ul li:nth-child(1) .over{background-color: rgba(255,255,255,1);color:#000000;position:absolute; top:-2px;left: 0px;}
+/*#nav .nav ul li:nth-child(1):hover .out{position:absolute;top:64px;left: 0px;}
+#nav .nav ul li:nth-child(1):hover .over{position:absolute;top:-2px;left: 0px;}*/
+
+/*banner*/
+#banner{width: 100%;height: 785px;position: relative;top:-64px;z-index: 1;}
+#banner .swiper-container{width: 100%;height: 100%;margin: 0 auto;}
+#banner .swiper-container .swiper-slide{width: 100%;height: 100%;}
+#banner .swiper-container .swiper-slide a{width: 100%;height: 100%;display: block;overflow: hidden;}
+#banner .swiper-container .swiper-slide a img{margin: 0 auto;}
+#banner .swiper-container .swiper-pagination{}
+#banner .swiper-container .swiper-pagination-bullet{
+    width:30px;
+    height:5px;
+    display: inline-block;
+    border-radius:0%;
+    background: #FFFFFF;
+    opacity: .8;
+    margin: 0 5px;
+    }
+#banner .swiper-container .swiper-pagination-bullet-active {
+
+    opacity: 1;
+    background: #000;
+    }
+    
+
+
+
+			
+			/*包裹自定义分页器的div的位置等CSS样式*/
+			.swiper-pagination-custom {
+				bottom: 10px;
+				left: 0;
+				width: 100%;
+			}
+			/*自定义分页器的样式，这个你自己想要什么样子自己写*/
+			.swiper-pagination-customs {
+				width: 30px;
+				height: 4px;
+				display: inline-block;
+				background: #000;
+				opacity: 1;
+				margin: 0 5px;
+			}
+			/*自定义分页器激活时的样式表现*/
+			.swiper-pagination-customs-active {
+				opacity: 1;
+				background-color: #F78E00;
+			}
+/*banner end*/
+
+
+/*about*/
+#about{height: 568px;width: 100%;margin-top: 75px;}
+#about .about{width: 1200px;height: 100%;margin: 0 auto;overflow: hidden;}
+#about .about .about-l{width: 665px;height: 100%;float: left;}
+#about .about .about-l h2{}
+#about .about .about-l p{font-size: 14px;line-height: 35px;margin-top: 10px;}
+#about .about .about-l p a{color: #ff0000;}
+#about .about .about-r{float: right;width: 480px;height: 100%;}
+#about .about .about-r img{}
+#about .about .about-r ul{overflow: hidden;margin-top: 40px;margin-left: 15px;width: 445px;}
+#about .about .about-r ul li{float: left;padding: 0 22px;text-align: center;}
+#about .about .about-r ul li:last-child img{padding-top:4px;}
+#about .about .about-r ul li p{font-size: 14px;margin-top: 16px;}
+/*about end*/
+
+
+/*anli*/
+#anli{width: 100%;height: 950px;background-color: #f3f3f3;}
+#anli .anli{width: 1200px;height:100%;margin: 0 auto;}
+#anli .anli h2{text-align: center;width: 100%;height: 188px;padding-top: 50px;}
+#anli .anli h2 span{font-size: 24px;color: #000000;margin: 0 10px;}
+#anli .anli h2 img{position: relative;top: -4px;display: inline-block;}
+#anli .anli h2::after{content: "公司集中所有的优势资源打造专业的服务团队来专心服务每一位客户。一切都是为了客户需要，着力为客户提供更为专业、更为贴心的全方位服务队伍。"; display: block;font-weight: 200;font-size: 14px;width: 620px;margin: 0 auto; margin-top:25px;color: #919191;}
+
+
+
+#anli .anli ul{width: 100%;height:auto;;display: flex;justify-content: space-between;flex-wrap: wrap;}
+#anli .anli ul li{width: 380px;height: 320px;}
+#anli .anli ul li a{width: 100%;height: 100%;display: block;position: relative;overflow: hidden;}
+#anli .anli ul li a .pc-box{width: 380px;height: 283px;overflow: hidden;position: relative;}
+#anli .anli ul li a .pc-box img{width: 100%;height: auto;transition: all 1s ease;}
+#anli .anli ul li a .pc-box:before{content: "";display: block;width:380px;height:283px;position: absolute;top:0;left: 0;background-color: rgba(235, 97, 35, 0);transform:skewX(45deg);transition: all 1s ease;z-index: 10;}
+#anli .anli ul li:hover a .pc-box:before{content: "";display: block;width:380px;height:283px;position: absolute;top:0;left: 0;background-color: rgba(235, 97, 35, 0.2);transform:skewX(0deg);}
+#anli .anli ul li a .pc-box div{z-index: 20;transition: all 0.5s ease;}
+#anli .anli ul li a .pc-box div:nth-child(1){width: 2px;height: 0px;background-color:#EB6123;position: absolute;top: 0%;left: 0%;}
+#anli .anli ul li a .pc-box div:nth-child(2){width: 0px;height:2px;background-color:#EB6123;position: absolute;top: 0%;left: 0%;}
+#anli .anli ul li a .pc-box div:nth-child(3){width: 2px;height: 0px;background-color:#EB6123;position: absolute;top: 0%;right: 0%;}
+#anli .anli ul li a .pc-box div:nth-child(4){width: 0px;height:2px;background-color:#EB6123;position: absolute;bottom: 0%;left: 0%;}
+
+#anli .anli ul li:hover a .pc-box div:nth-child(1){height:283px;}
+#anli .anli ul li:hover a .pc-box div:nth-child(2){width:380px;}
+#anli .anli ul li:hover a .pc-box div:nth-child(3){height:283px;}
+#anli .anli ul li:hover a .pc-box div:nth-child(4){width:380px;}
+
+#anli .anli ul li a .pc-box em:before{content: "";display: block;width:46px;height: 1px;position: absolute;top: 50%;left:-50%;background-color: #EB6123;z-index: 100;transition: all 0.5s ease;}
+#anli .anli ul li a .pc-box em:after{content: "";display: block;width:1px;height:46px;position: absolute;top: -50%;left:50%;background-color: #EB6123;z-index: 100;transition: all 0.5s ease;}
+
+#anli .anli ul li:hover a .pc-box em:before{left:50%;margin-left: -23px;}
+#anli .anli ul li:hover a .pc-box em:after{top:50%;margin-top: -23px;}
+
+
+#anli .anli ul li a span{font-size: 14px;color: #5d5d5d;display: block;text-align: center;margin-top:10px;transition: all 0.5s ease; }
+#anli .anli ul li:hover a .pc-box img{transform: scale(1.1);}
+#anli .anli ul li:hover a span{color: #eb6123;}
+
+
+
+
+
+
+
+#anli .anli .nb{width: 100%;height: 100px;padding-top: 34px;}
+#anli .anli .nb a{width: 233px;height: 50px;display: block;border:2px solid #db0011;margin: 0 auto;text-align: center;font-size: 18px;color: #DB0011;line-height:50px;transition: all 0.8s ease; }
+#anli .anli .nb a:hover{background-color: #DB0011;color: #FFFFFF;}
+/*anli end*/
+
+/*news*/
+#news{width: 100%;height:580px;background-color: #f3f3f3;}
+#news .news{width: 1200px;height:100%;margin: 0 auto;}
+#news .news h2{text-align: center;width: 100%;height: 188px;padding-top: 50px;}
+#news .news h2 span{font-size: 24px;color: #000000;margin: 0 10px;}
+#news .news h2 img{position: relative;top: -4px;display: inline-block;	 }
+#news .news h2::after{content:"公司集中所有的优势资源打造专业的服务团队来专心服务每一位客户。一切都是为了客户需要，着力为客户提供更为专业、更为贴心的全方位服务队伍。"; display: block;font-weight: 200;font-size: 14px;width: 620px;margin: 0 auto; margin-top:25px;color: #919191;}
+
+#news .news ul{height: 370px;width:100%;display: flex;justify-content: space-around;}
+#news .news ul li{ height: 100%;width: 370px;}
+#news .news ul li a img{width: 370px;height: 232px;}
+#news .news ul li a h3{font-size: 16px;color: #000000;font-weight:400;margin: 18px 0 12px 0;}
+#news .news ul li a h3:hover{color: #CB001A;}
+#news .news ul li p{font-size: 14px;line-height: 26px;color: #919191;}
+/*news end*/
+
+
+
